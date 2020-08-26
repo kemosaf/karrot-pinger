@@ -31,7 +31,6 @@ setInterval(() => {
 
 //creating a Discord bot so that I can tell if the bot is online Karrot is getting pinged
 
-/*
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
@@ -40,4 +39,3 @@ client.on("ready", async() => {
         client.user.setActivity('Pinging Karrot! 👍')
 })
 client.login(process.env.TOKEN)
-*/
