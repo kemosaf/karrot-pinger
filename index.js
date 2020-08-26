@@ -1,19 +1,3 @@
-const http = require('http');
-const express = require('express');
-const fetch = require('node-fetch')
-const app = express();
-
-//keeping this project alive
-app.get("/", (request, response) => {
-  console.log('I was pinged!');
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  fetch(`https://pinger.kemosaf5.repl.co`);
-}, 5000);
-
-
 //keeping Karrot.glitch.me alive
 app.listen(process.env.PORT);
 setInterval(() => {
