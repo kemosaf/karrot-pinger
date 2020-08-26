@@ -1,12 +1,10 @@
 //keeping Karrot.glitch.me alive
-app.listen(process.env.PORT);
 setInterval(() => {
   fetch(`http://karrot.glitch.me/`);
   console.log(`pinged Karrot`)
 }, 5000);
 
 //keeping Pencil.kemosaf5.repl.co alive
-app.listen(process.env.PORT);
 setInterval(() => {
   fetch(`https://Pencil.kemosaf5.repl.co`);
   console.log(`pinged Pencil`)
