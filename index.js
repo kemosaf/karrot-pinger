@@ -1,3 +1,5 @@
+const fetch = require('node-fetch')
+
 //keeping Karrot.glitch.me alive
 setInterval(() => {
   fetch(`http://karrot.glitch.me/`);
